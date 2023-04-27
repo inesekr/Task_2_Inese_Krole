@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIERE Test Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <script src="assets/js/theme.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="black-logo">
+                <img src="assets/img/BlackLogo.jpg" alt="Sparkle Heart">
+            </div>
+            <ul class="nav-items">
+                <li><a href="#">Ideja</a></li>
+                <li><a href="#">Piesaki Sapni</a></li>
+                <li><a href="#">Uzņēmējiem</a></li>
+                <li><a href="#">Sapņu banka</a></li>
+                <li><a href="#">Sapņus atbalsta</a></li>
+                <li><a href="#">99 iedvesmas stāsti</a></li>
+                <li><a href="#">LV</a></li>
+            </ul>
+            <div id="toggle-btn" class="toggle-btn">
+                <i id="toggle-btn-i" class="fa-solid fa-xmark"></i>
+            </div>
+        </nav>                 
+        <div id="dropdown-menu" class="dropdown-menu">
+            <ul>
+                <li class="active"><a href="#" data-lang="LV">LV</a></li>
+                <li><a href="#" data-lang="EN">EN</a></li>
+                <li><a href="#" data-lang="RU">RU</a></li>
+            </ul>
+            <li><a href="#">Ideja</a></li>
+            <li class="active"><a href="#">Piesaki Sapni</a></li>
+            <li><a href="#">Uzņēmējiem</a></li>
+            <li><a href="#">Sapņu banka</a></li>
+            <li><a href="#">Sapņus atbalsta</a></li>
+            <li><a href="#">99 iedvesmas stāsti</a></li>
+        </div>
+        <div class="vector-navbar">
+            <img src="assets/img/Vector_navbar.svg" alt="">
+        </div>       
+        <div class="hero-section">
+            <div class="hero-image">
+                <img src="assets/img/Sparkle_video.png" alt="Girl sitting outside wooden house">
+                <a href="#" class="play-button">
+                    <img src="assets/img/Vector_play.svg" alt="image of video play button">
+                </a>
+            </div>           
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="about">
+            <p>
+                SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+            </p>
+        </div>
+        <div class="images">
+            <div class="picture-up">
+                <img src="assets/img/vector_image_up.svg" alt="">
+            </div>
+            <div class="image-grid">
+                <div class="image-1">
+                    <img src="assets/img/Zanda.jpg" alt="">
+                </div>
+                <div class="image-2">
+                    <img src="assets/img/Sibilla.jpg" alt="">
+                </div>
+                <div class="image-3">
+                    <img src="assets/img/Brinuma_meita.jpg" alt="">
+                </div>
+                <div class="image-4">
+                    <img src="assets/img/Alina.jpg" alt="">
+                </div>
+                <div class="image-5">
+                    <img src="assets/img/Anda.jpg" alt="">
+                </div>
+            </div>
+            <div class="picture-bottom">
+                <img src="assets/img/vector_image_bottom.svg" alt="">
+            </div>
+        </div>
+
+        <div class="choice">
+            <div class="left">
+                <h3>VĒLIES PIEPILDĪT SAVU SAPNI?</h3>
+                <button class="btn btn-choose">Sapņotājiem</button>
+            </div>
+            <div class="right">
+                <h3>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</h3>
+                <button class="btn btn-choose">Uzņēmējiem</button>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>SAZINĀTIES AR MUMS</h3>
+            <form action="">
+                <input type="text" id="name" name="name" placeholder="Vārds, uzvārds*">
+                <input type="text" id="email" name="email" placeholder="E-pasts*">
+                <br>
+                <input type="text" id="phone" name="phone" placeholder="Telefons*">       
+                <br>
+                <textarea type="text">Jautājums vai komentārs*</textarea>
+                <p>* obligāti aizpildāmie lauki</p>
+                <br>
+                <div class="agree">
+                    <input type="checkbox" id="agree-checkbox" name="agree-checkbox" class="custom-checkbox">
+                    <label for="agree-checkbox">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+                </div>            
+                <br>
+                <button class="btn btn-send">Sūtīt</button>
+            </form>
+        </div> 
+
+        <div class="supports">
+            <h3>ATBALSTĪTĀJI</h3>
+            <div class="supports-list">
+            <div class="teikums">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="assets/img/teikums-logo-small.png">
+                    <source media="(max-width: 768px)" srcset="assets/img/teikums-logo-medium.png">
+                    <img src="assets/img/teikums-logo.png" alt="logo of company Teikums">
+                </picture>
+            </div>
+            <div class="sem">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="assets/img/Vector_panda_mobile.svg">
+                    <source media="(max-width: 768px)" srcset="assets/img/Vector_panda_tablet.svg">
+                    <img class="panda" src="assets/img/Vector_panda.svg" alt="image of panda">
+                </picture>
+                <picture>
+                    <source media="(max-width: 320px)" srcset="assets/img/Vector_S_mobile.svg">
+                    <source media="(max-width: 768px)" srcset="assets/img/Vector_S_tablet.svg">
+                    <img class="s" src="assets/img/Vector_S.svg" alt="letter S">
+                </picture>
+                <picture id="E">
+                    <source media="(max-width: 320px)" srcset="assets/img/Vector_E_mobile.svg">
+                    <source media="(max-width: 768px)" srcset="assets/img/Vector_E_tablet.svg">
+                    <img  class="e" src="assets/img/Vector_E.svg" alt="letter E">
+                </picture>
+                <picture>
+                    <source media="(max-width: 320px)" srcset="assets/img/Vector_M_mobile.svg">
+                    <source media="(max-width: 768px)" srcset="assets/img/Vector_M_tablet.svg">
+                    <img class="m" src="assets/img/Vector_M.svg" alt="letter M">
+                </picture>
+            </div>
+            <div class="citybee">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="assets/img/citybee-logo-small.png">
+                    <source media="(max-width: 768px)" srcset="assets/img/citybee-logo-medium.png">
+                    <img src="assets/img/citybee-logo.png" alt="logo of Citybee company">
+                </picture>
+            </div>
+            <div class="linearis">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="assets/img/linearis-logo-small.png">
+                    <source media="(max-width: 768px)" srcset="assets/img/linearis-logo-medium.png">
+                    <img src="assets/img/linearis-logo.png" alt="logo of Linearis company">
+                </picture>
+            </div>
+        </div>
+        </div>   
+    </main>
+    <footer class="footer-desktop">
+        <div class="vector-footer">
+            <img src="assets/img/Vector_footer.png" alt="">
+        </div>
+        <div class="footer-container">
+            <div class="first-column">
+                <div class="footer-logo" >
+                    <img class="golden-logo-normal" src="assets/img/Golden-logo.png" alt="golden logo of Sparkle Heart company">
+                    <img class="golden-logo-retina" src="assets/img/Golden-logo_2x.png" alt="golden logo of Sparkle Heart company">
+                </div>
+                <div class="copyright">
+                    <p class="p-small">© SparkleHeart 2020. Visas tiesības aizsargātas</p>
+                </div>
+            </div>
+            <div class="footer-navbar">
+                <ul>
+                    <li> <a href="#">Ideja</a></li>
+                    <li> <a href="#">Piesaki Sapni</a></li>
+                    <li> <a href="#">Uzņēmējiem</a></li>
+                    <li> <a href="#">Sapņu banka</a></li>
+                    <li> <a href="#">Sapņus atbalsta</a></li>
+                    <li> <a href="#">Iedvesmas stāsti</a></li>
+                </ul>
+            </div>
+            <div class="company-details">
+                <p class="p-big">Biedrība SparkleHeart</p>
+                <p>Reģistrācijas nr.40008293119</p>
+                <p>Banka: SWEDBANK A/S</p>
+                <p>LV52HABA0551047662465</p>
+            </div>
+            <div class="contacts-section">
+                <div class="contacts">
+                    <p class="p-big">Juris Gogulis</p>
+                    <p>juris.gogulis@sparkleheart.org</p>
+                    <p>+37126890034</p>
+                    <p>Biķernieku iela 24a-5, LV-1006</p>
+                </div>
+                <div class="social">
+                    <a href="">
+                        <img src="assets/img/Vector_facebook.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/img/Vector_instagram.svg" alt="">
+                    </a>
+                </div>
+                <p class=" privacy p-small">Privātuma politika</p>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-mobile">
+        <div class="vector-footer">
+            <img src="assets/img/Vector_footer.png" alt="">
+        </div>
+        <div class="footer-container">
+            <div class="footer-logo" >
+                <img class="golden-logo-normal" src="assets/img/Golden-logo.png" alt="golden logo of Sparkle Heart company">
+                <img class="golden-logo-retina" src="assets/img/Golden-logo_2x.png" alt="golden logo of Sparkle Heart company">
+            </div>
+            <div class="contacts">
+                <p class="p-big">Juris Gogulis</p>
+                <p>juris.gogulis@sparkleheart.org</p>
+                <p>+37126890034</p>
+                <p>Biķernieku iela 24a-5, LV-1006</p>                
+            </div>    
+            <div class="credentials"> 
+                <a  href="#">Skatīt rekvizītus</a>
+            </div>
+            <div class="social">
+                <a href="">
+                    <img src="assets/img/Vector_facebook_small.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="assets/img/Vector_instagram_small.svg" alt="">
+                </a>
+            </div>       
+            <div class="copyright">
+                <p class="p-small">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+            </div>
+            <div class="privacy-mobile">
+                <p>Privātuma politika</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
