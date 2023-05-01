@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleBtnIcon.classList.replace("fa-bars", "fa-xmark");
       toggleBtn.style.display = "block";
       toggleBtnTablet.style.display = "none";
+    } else {
+      toggleBtnTablet.style.display = "none";
+      toggleBtn.style.display = "none";
     }
   }
 
