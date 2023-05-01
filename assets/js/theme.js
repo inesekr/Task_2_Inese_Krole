@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const toggleBtnIconTablet = document.querySelector(".toggle-btn-tablet i");
 
   function toggleMenuIcon() {
-    if (window.innerWidth >= 320) {
+    if (window.innerWidth > 320 && window.innerWidth <= 1160) {
       if (dropDownMenu.classList.contains("open")) {
         toggleBtnIconTablet.classList.replace("fa-bars", "fa-xmark");
       } else {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       toggleBtnTablet.style.display = "block";
       toggleBtn.style.display = "none";
-    } else {
+    } else if (window.innerWidth < 320) {
       toggleBtnIcon.classList.replace("fa-bars", "fa-xmark");
       toggleBtn.style.display = "block";
       toggleBtnTablet.style.display = "none";
