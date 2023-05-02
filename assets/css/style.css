@@ -631,7 +631,7 @@ nav .toggle-btn, nav .toggle-btn-tablet {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 499px) {
     .choice {
         flex-direction: column;
         margin-top: 120px;
@@ -1336,12 +1336,6 @@ p.p-big {
         width: 100%;
         margin-left: 0;
     }
-
-    /* .third-left {
-        max-width: 395px;
-        width: 100%;
-        margin-right: 0;
-    } */
 
     .privacy p {
         font-size: 16px;
